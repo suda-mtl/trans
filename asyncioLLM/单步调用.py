@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-67b47bbff8134add99108d538629f886",
+    api_key="",
     base_url="https://api.deepseek.com")
 
 system_message="""
