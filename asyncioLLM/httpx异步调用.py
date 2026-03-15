@@ -4,7 +4,7 @@ import os
 import httpx
 
 # 配置（根据你使用的后端修改）
-api_key = "sk-67b47bbff8134add99108d538629f886"
+api_key = ""
 base_url = "https://api.deepseek.com"
 MODEL_NAME = "deepseek-chat"  # 替换为你本地加载的模型名
 
