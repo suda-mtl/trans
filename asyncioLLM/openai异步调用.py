@@ -5,7 +5,7 @@ import os
 
 # 单个api key
 # 设置 OpenAI 客户端
-api_key = "sk-67b47bbff8134add99108d538629f886"
+api_key = ""
 base_url = "https://api.deepseek.com"  # 可选，例如使用本地模型服务时
 
 client = AsyncOpenAI(api_key=api_key, base_url=base_url)
