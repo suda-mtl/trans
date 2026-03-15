@@ -4,7 +4,7 @@
 # client=ChatOpenAI(
 #     model="gpt-4o-mini",
 #     base_url="https://api.deepseek.com",
-#     api_key="sk-67b47bbff8134add99108d538629f886",
+#     api_key="",
 # )
 
 # prompt=""
@@ -55,7 +55,7 @@ class LLMAPI:
         return AsyncOpenAI(
             # model="deepspeek-chat",
             base_url="https://api.deepseek.com",
-            api_key="sk-67b47bbff8134add99108d538629f886",
+            api_key="",
         )
 
     async def agenerate(self, text):
